@@ -10,6 +10,7 @@
 body {
     margin: 0 auto;
     background-color: #F7F5F5;
+    position: relative;
 }
 
 .logo {
@@ -60,10 +61,10 @@ a {
 
 #menu {
     width: 100%;
-    position: absolute;
+    position: fixed;
     background-color: #2F363E;
-    height: 100%;
-       top: 23vw
+    height: 557wv;
+    top: 20vw
     }
 
 .hide {
@@ -71,8 +72,13 @@ a {
 }
 
 header {
-    position: static;
+    background-color: #F7F5F5;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 20vw;
 }
+
 /* FOOTER */
 footer {
     background-color: #FFFFFF;
@@ -95,17 +101,18 @@ h5 {
 
 #video_sektion {
     background-color: #2F363E;
-    height: 100vw;
+    height: 150vw;
+    margin-top: 20vw;
 }
 #video_sektion h2 {
-    padding-top: 10vw;
+    padding-top: 7vw;
 }
 
 .button {
     background-color: #E86F43;
     cursor: pointer;
     padding: 4vw;
-    margin: 60vw 15vw 5vw 15vw;
+    margin: 90vw 15vw 5vw 15vw;
     border-radius: 25px;
     text-align: center;
 
@@ -119,17 +126,109 @@ h5 {
     width: 100%;
 }
 
-.infotekst {
+#infotekst {
     background-color: #2F363E;
     padding: 8vw 4vw 10vw 4vw;
     color: #ffff;
 }
-.infotekst img {
+#infotekst img {
     width: 35%;
 }
 
-.infotekst img, p {
+#infotekst img, p {
     display:inline;
 }
+
+
+@media only screen and (min-width:750px) {
+    .burger-button {
+        display: none;
+    }
+    #menu.hide {
+        visibility: visible;
+    }
+    #menu a {
+        margin-right: 2.3vw;
+        display: inline-block;
+        margin-top: 0.7vw;
+        padding-bottom: 1vw;
+        color: #2F363E;
+        float: right;
+        border: none;
+
+}
+    #menu {
+        background-color: #F7F5F5;
+        top: 1vw;
+        right: 2vw;
+        width: 30vw;
+        height: 0vw;
+
+    }
+    header {
+        height: 12vw;
+    }
+    #video_sektion {
+        margin-top: 10vw;
+        padding: 0;
+        height: 80vw;
+    }
+
+    .button {
+        margin: 40vw 30vw 0vw 30vw;
+        border-radius: 50px;
+        padding: 2vw;
+
+    }
+    #kontakt {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .logo {
+        display: none;
+    }
+    .logo2 {
+        visibility: visible;
+        width: 230px;
+        margin-top: 1vw;
+        cursor: pointer;
+
+    }
+    .infografik {
+        display: none;
+    }
+    .infografik2 img {
+        visibility: visible;
+        width: 100%;
+    }
+    #infotekst {
+        padding: 5vw 3vw 5vw 3vw;
+    }
+    #infotekst img {
+        width: 20%
+    }
+}
+
+@media only screen and (min-width:1100px) {
+    header {
+        height: 8vw;
+    }
+    #video_sektion {
+        height: 55vw;
+        margin-top: 5vw;
+
+    }
+    .button {
+        margin: 29vw 35vw 0vw 35vw;
+        padding: 1.5vw;
+    }
+    .logo2 {
+        width: 200px;
+    }
+
+}
+
+
 
 
