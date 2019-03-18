@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'bauhaus_93regular';
+    src: url('font/bauhaus_93_regular-webfont.woff2') format('woff2'),
+         url('font/bauhaus_93_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* GENERELT */
+body {
+    margin: 0 auto;
+    background-color: #F7F5F5;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+    margin-top: 3vw;
+
+}
+
+.burger-button img {
+    width: 40px;
+    position: absolute;
+    right: 4vw;
+    top: 5vw;
+    cursor: pointer;
+}
+
+p {
+   font-family: Abadi MT Condensed Light, sans-serif;
+    line-height: 1.5rem;
+}
+h2 {
+    font-family: 'bauhaus_93regular';
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
+a {
+    font-weight: 200;
+     font-family: Abadi MT Condensed Light, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+ #menu a {
+    display: block;
+    color: #F7F5F5;
+    font-size: 1rem;
+     line-height: 70px;
+     border-bottom: 1px solid #FFFFFF;
+    }
+
+#menu a:hover {
+    color: #E86F43;
+     }
+
+#menu {
+    width: 100%;
+    position: absolute;
+    background-color: #2F363E;
+    height: 100%;
+       top: 23vw
+    }
+
+.hide {
+    visibility: hidden;
+}
+
+header {
+    position: static;
+}
+/* FOOTER */
+footer {
+    background-color: #FFFFFF;
+     text-align: center;
+    padding: 5vw 5vw 10vw 5vw;
+    color: #E86F43;
+}
+
+
+
+h5 {
+   font-family: 'bauhaus_93regular';
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 100;
+    color: #2F363E
+}
+
+/* FORSIDE */
+
+#video_sektion {
+    background-color: #2F363E;
+    height: 100vw;
+}
+#video_sektion h2 {
+    padding-top: 10vw;
+}
+
+.button {
+    background-color: #E86F43;
+    cursor: pointer;
+    padding: 4vw;
+    margin: 60vw 15vw 5vw 15vw;
+    border-radius: 25px;
+    text-align: center;
+
+}
+.button a {
+    color: #FFFFFF;
+   font-size: 1rem;
+
+}
+.infografik img {
+    width: 100%;
+}
+
+.infotekst {
+    background-color: #2F363E;
+    padding: 8vw 4vw 10vw 4vw;
+    color: #ffff;
+}
+.infotekst img {
+    width: 35%;
+}
+
+.infotekst img, p {
+    display:inline;
+}
+
+
