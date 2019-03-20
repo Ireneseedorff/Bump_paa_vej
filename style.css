@@ -59,6 +59,8 @@ a {
     color: #E86F43;
      }
 
+
+
 #menu {
     width: 100%;
     position: fixed;
@@ -78,6 +80,13 @@ header {
     top: 0;
     height: 20vw;
 }
+
+.kampagnelogo {
+
+}
+
+
+
 
 /* FOOTER */
 footer {
@@ -173,6 +182,10 @@ h5 {
         padding: 0;
         height: 80vw;
     }
+    #video_sektion h2 {
+        position: relative;
+        top: 1vw;
+    }
 
     .button {
         margin: 40vw 30vw 0vw 30vw;
@@ -208,6 +221,26 @@ h5 {
     #infotekst img {
         width: 20%
     }
+    .circle{
+    position: absolute;
+     height:45px;
+     width:90px;
+     border-radius: 90px 90px 0 0;
+     background: #FFFFFF;
+    top: 2.5vw;
+    left: 46.2vw;
+        margin: 2vw
+    }
+
+    #menu a:hover {
+        color: #FFFFFF;
+     height:40px;
+     width:90px;
+     border-radius: 90px 90px 0 0;
+     background: #707070;
+    top: 3vw;
+     }
+
 }
 
 @media only screen and (min-width:1100px) {
@@ -225,6 +258,14 @@ h5 {
     }
     .logo2 {
         width: 200px;
+    }
+
+    #infotekst img {
+        width: 15%;
+
+    }
+    #infotekst {
+       margin-top: -3vw;
     }
 
 }
