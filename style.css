@@ -159,6 +159,7 @@ h5 {
     #menu a {
         margin-right: 2.3vw;
         display: inline-block;
+        flex-direction: row-reverse;
         margin-top: 0.7vw;
         padding-bottom: 1vw;
         color: #2F363E;
@@ -221,24 +222,11 @@ h5 {
     #infotekst img {
         width: 20%
     }
-    .circle{
-    position: absolute;
-     height:45px;
-     width:90px;
-     border-radius: 90px 90px 0 0;
-     background: #FFFFFF;
-    top: 2.5vw;
-    left: 46.2vw;
-        margin: 2vw
-    }
+
 
     #menu a:hover {
         color: #FFFFFF;
-     height:40px;
-     width:90px;
-     border-radius: 90px 90px 0 0;
-     background: #707070;
-    top: 3vw;
+
      }
 
 }
