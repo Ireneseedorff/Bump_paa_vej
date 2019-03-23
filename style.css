@@ -40,6 +40,14 @@ h2 {
     color: #FFFFFF;
 }
 
+h4 {
+    font-family: 'bauhaus_93regular';
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
 a {
     font-weight: 200;
      font-family: Abadi MT Condensed Light, sans-serif;
@@ -59,8 +67,6 @@ a {
     color: #E86F43;
      }
 
-
-
 #menu {
     width: 100%;
     position: fixed;
@@ -79,12 +85,15 @@ header {
     position: fixed;
     top: 0;
     height: 20vw;
+    z-index: 4;
 }
 
-.kampagnelogo {
+h6 {
+    font-family: Abadi MT Condensed Light, sans-serif;
+    font-size: 1.5rem;
+     text-align: center;
 
 }
-
 
 
 
@@ -93,6 +102,7 @@ footer {
     background-color: #FFFFFF;
      text-align: center;
     padding: 5vw 5vw 10vw 5vw;
+    margin-top: -3vw;
     color: #E86F43;
 }
 
@@ -148,6 +158,45 @@ h5 {
     display:inline;
 }
 
+.logo2 {
+    display: none;
+}
+
+.infografik2 {
+    display: none;
+}
+
+.omos {
+    background-color: #2F363E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 3vw 0;
+    padding-bottom: 10vw;
+}
+
+.omos_sektion {
+    margin: 4vw 4vw 0 4vw;
+}
+.omos_tekst {
+    background-color: #F7F5F5;
+    padding: 9vw 4vw 7vw 4vw;
+    margin-top: -5vw;
+    z-index: 1;
+}
+
+.omos_sektion h6 {
+    background-color: #E86F43;
+    width: 50vw;
+    padding: 2vw 0 2vw 0;
+    margin-bottom: -5vw;
+    margin: auto;
+    z-index: 2;
+}
+.omos_overskrift {
+    position: relative;
+     z-index: 3;
+}
 
 @media only screen and (min-width:750px) {
     .burger-button {
@@ -222,7 +271,6 @@ h5 {
     #infotekst img {
         width: 20%
     }
-
 
     #menu a:hover {
         color: #FFFFFF;
