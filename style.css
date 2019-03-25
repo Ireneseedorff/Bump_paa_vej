@@ -55,6 +55,14 @@ a {
     text-align: center;
 }
 
+ul {
+   font-family: Abadi MT Condensed Light, sans-serif;
+    text-align: left;
+    line-height: 1.5rem;
+    margin: 0;
+    padding-left: 0.1;
+}
+
  #menu a {
     display: block;
     color: #F7F5F5;
@@ -118,12 +126,12 @@ h5 {
 
 /* FORSIDE */
 
-#video_sektion {
+#start_sektion {
     background-color: #2F363E;
     height: 150vw;
     margin-top: 20vw;
 }
-#video_sektion h2 {
+#start_sektion h2 {
     padding-top: 7vw;
 }
 
@@ -227,12 +235,12 @@ h5 {
     header {
         height: 12vw;
     }
-    #video_sektion {
+    #start_sektion {
         margin-top: 10vw;
         padding: 0;
         height: 80vw;
     }
-    #video_sektion h2 {
+    #start_sektion h2 {
         position: relative;
         top: 1vw;
     }
@@ -283,7 +291,7 @@ h5 {
     header {
         height: 8vw;
     }
-    #video_sektion {
+    #start_sektion {
         height: 55vw;
         margin-top: 5vw;
 
