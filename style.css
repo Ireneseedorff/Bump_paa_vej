@@ -1,11 +1,12 @@
 @font-face {
     font-family: 'bauhaus_93regular';
     src: url('font/bauhaus_93_regular-webfont.woff2') format('woff2'),
-         url('font/bauhaus_93_regular-webfont.woff') format('woff');
+        url('font/bauhaus_93_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+
 /* GENERELT */
 body {
     margin: 0 auto;
@@ -26,19 +27,22 @@ body {
     top: 5vw;
     cursor: pointer;
 }
+
 .splash img {
     width: 100%;
     max-width: none;
     position: absolute;
     margin: auto;
 }
+
 p {
-   font-family: Abadi MT Condensed Light, sans-serif;
+    font-family: Abadi MT Condensed Light, sans-serif;
     line-height: 1.5rem;
 }
+
 h2 {
     font-family: 'bauhaus_93regular';
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     font-weight: 100;
     color: #2F363E;
@@ -54,31 +58,31 @@ h4 {
 
 a {
     font-weight: 200;
-     font-family: Abadi MT Condensed Light, sans-serif;
+    font-family: Abadi MT Condensed Light, sans-serif;
     text-decoration: none;
     text-align: center;
 }
 
 ul {
-   font-family: Abadi MT Condensed Light, sans-serif;
+    font-family: Abadi MT Condensed Light, sans-serif;
     text-align: left;
     line-height: 1.5rem;
     margin: 0;
     padding-left: 0.1;
 }
 
- #menu a {
+#menu a {
     display: block;
     color: #F7F5F5;
     font-size: 1rem;
-     line-height: 70px;
-     border-bottom: 1px solid #FFFFFF;
-    }
+    line-height: 70px;
+    border-bottom: 1px solid #FFFFFF;
+}
 
 
 #menu a:hover {
     color: #E86F43;
-     }
+}
 
 #menu {
     width: 100%;
@@ -86,7 +90,7 @@ ul {
     background-color: #2F363E;
     height: 557wv;
     top: 20vw
-    }
+}
 
 .hide {
     visibility: hidden;
@@ -104,7 +108,7 @@ header {
 h6 {
     font-family: Abadi MT Condensed Light, sans-serif;
     font-size: 1.5rem;
-     text-align: center;
+    text-align: center;
 
 }
 
@@ -113,23 +117,24 @@ h6 {
 /* FOOTER */
 footer {
     background-color: #FFFFFF;
-     text-align: center;
+    text-align: center;
     padding: 5vw 5vw 6vw 5vw;
     margin-top: -3vw;
     color: #E86F43;
 }
 
 h5 {
-   font-family: 'bauhaus_93regular';
+    font-family: 'bauhaus_93regular';
     font-size: 1.2rem;
     text-align: center;
     font-weight: 100;
     color: #2F363E
 }
+
 .some_ikoner img {
     width: 10%;
     float: center;
-   margin: 8vw 3vw 5vw 3vw;
+    margin: 8vw 3vw 5vw 3vw;
 }
 
 /* FORSIDE */
@@ -138,10 +143,15 @@ h5 {
     height: 150vw;
     margin-top: 20vw;
 }
+
 #start_sektion h2 {
     position: absolute;
     top: 1vw;
-   left: 4vw;
+    left: 4vw;
+}
+
+.kampagnelogo h2 {
+    width: 90%;
 }
 
 .button {
@@ -156,11 +166,13 @@ h5 {
     top: 180vw;
 
 }
+
 .button a {
     color: #FFFFFF;
-   font-size: 1rem;
+    font-size: 1rem;
 
 }
+
 .infografik img {
 
     width: 100%;
@@ -171,12 +183,14 @@ h5 {
     padding: 8vw 4vw 10vw 4vw;
     color: #ffff;
 }
+
 #infotekst img {
     width: 35%;
 }
 
-#infotekst img, p {
-    display:inline;
+#infotekst img,
+p {
+    display: inline;
 }
 
 .logo2 {
@@ -186,6 +200,7 @@ h5 {
 .infografik2 {
     display: none;
 }
+
 .top {
     margin-top: 50vw;
 }
@@ -204,6 +219,7 @@ h5 {
 .omos_sektion {
     margin: 4vw 4vw 0 4vw;
 }
+
 .omos_tekst {
     background-color: #F7F5F5;
     padding: 9vw 4vw 7vw 4vw;
@@ -215,10 +231,10 @@ h5 {
     background-color: #E86F43;
     width: 50vw;
     padding: 2vw 0 2vw 0;
-    margin-bottom: -5vw;
     margin: auto;
     z-index: 2;
 }
+
 .omos_overskrift {
     position: relative;
     z-index: 3;
@@ -229,10 +245,11 @@ h5 {
 .tilmelding {
     margin-top: 20vw;
 }
+
 input {
     border: none;
     background-color: #2F363E;
-   padding: 4vw;
+    padding: 4vw;
     margin: 2vw 2vw 7vw 2vw;
     cursor: pointer;
     text-align: left;
@@ -248,8 +265,8 @@ input a {
     font-size: 0.7rem;
 }
 
-input::placeholder{
-    color:  #F7F5F5;
+input::placeholder {
+    color: lightgray;
 }
 
 .tilmeldbutton a {
@@ -262,6 +279,7 @@ input::placeholder{
     text-decoration: none;
 
 }
+
 .tilmeldbutton {
     background-color: #E86F43;
     padding: 4vw;
@@ -275,30 +293,41 @@ input::placeholder{
     text-align: center;
     margin: 15vw 3vw 3vw 3vw;
 }
+
 .arrow {
     margin: 0 auto;
     width: 40%;
     display: block;
 
 }
+
 .movedown {
     position: relative;
-    animation-name: example;
-  animation-duration: 1s;
+    animation-name: movedown;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-@keyframes example {
-  0%   {left:0px; top:0px;}
-  100% {left:0px; top:10px;}
-0%   {left:0px; top:0px;}
+@keyframes movedown {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 10px;
+    }
+
+
 }
 
 .merch_sticker {
     width: 100%;
     margin-bottom: 10vw;
 }
+
 .merch {
     text-align: center;
     margin: 25vw 4vw 5vw 4vw;
@@ -309,13 +338,57 @@ input::placeholder{
     margin: 3vw;
 }
 
+/*** VIDEO PORTFOLIO ***/
+
+iframe {
+    margin: 5vw auto;
+}
+
+.video_sektion {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 10px;
+    height: 0;
+    margin: 12vw 3vw 1vw 3vw;
+
+    }
+
+    .video_sektion iframe {
+        position: absolute;
+        width: 100%;
+        height: 90%;
+    }
+    .video_sektion h5 {
+        margin-bottom: 0;
+    }
+
+    .video_sektion2 {
+        margin-bottom: 25vw;
+    }
+
+    .video_sektion_forside {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 10px;
+    height: 0;
+    margin: 5vw 0vw 15vw 0vw;
+}
+.video_sektion_forside iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 @media only screen and (min-width:750px) {
     .burger-button {
         display: none;
     }
+
     #menu.hide {
         visibility: visible;
     }
+
     #menu a {
         margin-left: 2.3vw;
         display: inline-block;
@@ -324,7 +397,8 @@ input::placeholder{
         color: #2F363E;
         border: none;
 
-}
+    }
+
     #menu {
         background-color: #F7F5F5;
         top: 0.6vw;
@@ -333,17 +407,18 @@ input::placeholder{
         height: 0vw;
 
     }
+
     header {
         height: 11vw;
-        width: 100%;
     }
 
 
     .kampagnelogo h2 {
-        margin-top: -1vw;
+        font-size: 3rem;
     }
+
     .button {
-     top: 35vw;
+        top: 12vw;
         left: 4vw;
     }
 
@@ -357,6 +432,7 @@ input::placeholder{
         padding: 0;
         height: 80vw;
     }
+
     #start_sektion h2 {
         position: relative;
         top: 5vw;
@@ -368,14 +444,17 @@ input::placeholder{
         padding: 2vw;
 
     }
+
     #kontakt {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
     .logo {
         display: none;
     }
+
     .logo2 {
         visibility: visible;
         width: 190px;
@@ -384,128 +463,258 @@ input::placeholder{
         display: block;
 
     }
+
     .infografik {
         display: none;
     }
+
     .infografik2 img {
         visibility: visible;
         width: 100%;
 
     }
+
     .infografik2 {
-         display: block;
+        display: block;
     }
 
     .top {
-        margin-top: 25vw;
+        margin-top: 30vw;
     }
 
     #infotekst {
         padding: 5vw 3vw 5vw 3vw;
+        display: flex;
     }
+
+    #infotekst p {
+        flex-basis: 400px;
+        padding-top: 2vw;
+        font-size: 1.2rem;
+    }
+
     #infotekst img {
-        width: 20%
+        flex-basis: 200px;
+        flex-grow: 1;
+        width: 100%
     }
 
     #menu a:hover {
         color: #E86F43;
 
-     }
+    }
+
     #omos {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
+    .omos_sektion h6 {
+    width: 40vw;
+    padding: 1vw 0 1vw 0;
+
+}
+    .omos_tekst {
+        margin-top: -3vw;
+
+    }
+
     .omos_sektion {
         flex-grow: 400px;
         flex-basis: 1;
+
     }
+
+    .omos_overskrift {
+        position: relative;
+    }
+
     .some_ikoner {
         margin-top: 5vw
     }
-    .some_ikoner img {
-        width: 15%;
-        margin: 2vw 5vw 2vw 5vw;
 
-}
-    footer {
-        height: 30vw;
+    .some_ikoner img {
+        width: 10%;
+        margin: 2vw 1vw  1vw;
     }
+
+    footer {
+        height: 25vw;
+    }
+
     .sektion {
         margin: 0 5vw 0 5vw;
-        flex-basis: 200px;
-
+        flex-basis: 250px;
     }
 
 
+ .video_sektion {
+    margin: 7vw 5vw 0vw 10vw;
+    }
+
+    .video_sektion iframe {
+        height: 80%;
+    }
+
+    .video_sektion2 {
+        margin-bottom: 10vw;
+    }
     /* TILMELDING */
 
     .merch {
         margin-top: 15vw;
     }
+
     .tilmelding {
         margin-top: 0vw;
         flex-grow: 200px;
         flex-basis: 1:
-
     }
+
     input {
         width: 20vw;
         padding: 1.5vw;
         margin-bottom: 1vw;
+        margin-left: 7vw;
 
     }
+
     .tilmeldbutton {
         width: 20vw;
         padding: 1.5vw;
+        margin-left: 7vw;
+
     }
+
     .indhold_tilmeld {
         display: flex;
-        flex-wrap: wrap;
+    }
+
+    .movedown {
+        width: 10%;
+        height: 15%;
+        margin-top: 15vw;
+
     }
     .arrow {
-        display: none;
+        transform: rotate(270deg);
+    }
+    .movedown {
+    position: relative;
+    animation-name: moveright;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
-    }
-    .merch_sticker {
-        width: 30%;
-        flex-grow: 200px;
-        flex-basis: 1:
+@keyframes moveright {
+    0% {
+        left: 0px;
+        top: 0px;
     }
 
-    klistremaerke_tekst {
-        flex-grow: 200px;
-        flex-basis: 1:
+    100% {
+        left: 20px;
+        top: 0px;
     }
+
 
 }
+
+    .merch_sticker {
+        width: 40%;
+        height: 40%;
+
+    }
+
+    .klistremaerke_tekst {
+        margin-top: 10vw;
+        width: 20vw;
+    }
+
+    .merchchandise {
+        margin: auto;
+    }
+    .merchchandise img {
+         width: 30%;
+        margin-bottom: 5vw;
+
+    }
+
+
+}
+
 @media only screen and (min-width:1100px) {
     header {
         height: 8vw;
     }
+
+    #menu {
+        margin-right: -18vw;
+    }
+
     #start_sektion {
         height: 55vw;
         margin-top: 5vw;
 
     }
+
     .button {
-        margin: 29vw 35vw 0vw 35vw;
+        margin-top: 35vw;
+        margin-left: 35vw;
         padding: 1.5vw;
+        position: sticky;
+        width: 25vw;
     }
+
     .logo2 {
         width: 200px;
     }
 
+    #infotekst {
+        display: flex;
+    }
+
+    #infotekst p {
+        flex-basis: 400px;
+        flex-grow: 2;
+        margin-top: 5vw;
+        font-size: 1.4rem;
+    }
+
     #infotekst img {
-        width: 15%;
+        width: 100%;
+        flex-basis: 200px;
+        flex-grow: 1;
+    }
+
+    .top {
+        margin-top: 15vw;
+    }
+    .sektion {
+        flex-basis: 400px;
+    }
+    footer {
+        height: 15vw;
+    }
+    .video_sektion_forside {
+    margin: 1vw 10vw 5vw 10vw;
+
+}
+.video_sektion_forside iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+}
+     .klistremaerke_tekst {
+        margin-top: 17vw;
 
     }
-    #infotekst {
-       margin-top: -3vw;
+    .omos_tekst {
+        margin-top: -2vw;
+
     }
 
 }
-
-
-
-
